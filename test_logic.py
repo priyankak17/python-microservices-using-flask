@@ -1,4 +1,5 @@
 from mylib.logic import wiki
-#integration test
+
+# integration test
 def test_wiki():
     assert "god" in wiki()
