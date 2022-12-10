@@ -1,8 +1,12 @@
 name: Python application test with Github Actions
+
 on: [push]
+
 jobs:
   build:
+
     runs-on: ubuntu-latest
+
     steps:
     - uses: actions/checkout@v2
     - name: Set up Python 3.10.4
@@ -12,7 +16,6 @@ jobs:
     - name: Install dependencies
       run: |
         make install
-        python -m textblob.download_corpora
     - name: Lint with pylint
       run: |
         #make lint
@@ -22,7 +25,5 @@ jobs:
     - name: Format code
       run: |
         #make format
-    - name: Build Container
-      run: |
-        make build
+    
     
