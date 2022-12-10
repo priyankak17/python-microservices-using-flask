@@ -1,3 +1,5 @@
+[![Python application test with Github Actions](https://github.com/priyankak17/python-microservices-/actions/workflows/devops.yml/badge.svg)](https://github.com/priyankak17/python-microservices-/actions/workflows/devops.yml)
+
 # python-microservices-
 
 ### vim ~/.bashrc  -to open source file and add virtual env
