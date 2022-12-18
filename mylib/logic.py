@@ -1,7 +1,6 @@
 import wikipedia
 from textblob import TextBlob
-import nltk
-from nltk.corpus import brown
+
 
 
 def wiki(name="War Goddess", length=1):
